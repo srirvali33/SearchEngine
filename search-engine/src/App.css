@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.title{
+
+  font-size: 80px;
+  font-weight: 640;
+  
+}
+
+.first{
+    color: rgb(66, 133, 244);
+}
+
+.second{
+    color: rgb(234, 67, 53);
+ }
+
+ .third{
+    color:rgb(251, 188, 5);
+ }
+
+ .fourth{
+  color: rgb(66, 133, 244);
+ }
+
+ .fifth{
+  color:rgb(52, 168, 83);
+ }
+
+ .sixth{
+  color:rgb(234, 67, 53);
+ }
+
+ .form-control{
+  border-radius: 20px;
+  padding: 10px;
+ }
+
+ .nav-bar{
+  div{
+    cursor: pointer;
+  }
+ }
+
+  svg{
+    cursor: pointer;
+    margin: 1px;
+    padding-bottom: 1px;
+  }
+
+  .magnifying{
+    position: relative;
+    z-index: 6;
+    margin-left: 5px;
+    margin-top: 11px;
+  }
+
+  input{
+    position: absolute;
+    width: 27% !important;
+    z-index: 2;
+  }
+
+  .micro-camera{
+    position: relative;
+    left: 85%;
+    z-index: 4;
+    margin-top: 12px;
+
+  }
+
+@media only screen and (max-width: 600px) {
+ .input-group{
+    div{
+    margin-left: 13% !important;
+    width: 20%;
+
+}
+    }
+  input{
+    width: 276px !important;
+  }
+
+  .micro-camera{
+    position: relative;
+    left: 150%;
+    z-index: 4;
+    margin-top: 12px;
+  }
+
+  .magnifying{
+    margin-right: 14%;
+  }
+
+}
